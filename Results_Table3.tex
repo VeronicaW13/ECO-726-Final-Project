@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{IV Estimates using FAFSA Mandate as an IV (Table 3 Replication)}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{OLS: HS Grad}&\multicolumn{1}{c}{OLS: Cohort}&\multicolumn{1}{c}{IV: HS Grad}&\multicolumn{1}{c}{IV: Cohort}\\
+                    &        b/se         &        b/se         &        b/se         &        b/se         \\
+\midrule
+FAFSA Completion Rate&       0.207\sym{***}&       0.180\sym{***}&       0.232\sym{***}&       0.334\sym{***}\\
+                    &     (0.028)         &     (0.026)         &     (0.077)         &     (0.074)         \\
+\midrule
+Observations        &        1294         &        1294         &        1294         &        1294         \\
+\bottomrule
+\end{tabular}
+\end{table}
